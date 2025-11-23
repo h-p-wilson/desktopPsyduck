@@ -11,12 +11,17 @@
             http-equiv="X-Content-Security-Policy"
             content="default-src 'self'; script-src 'self'"
         />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./assets/sprites.css">
         <title>Hello it's Hephzi!!!</title>
     </head>
     <body>
         <h1>Hello it's hephzi!!! So it is!</h1>
+        <div id = "psyduck" class="walking_front1"></div>
         <p id="info"></p>
     </body>
-    <!-- Attaching renderer script here -->
+    <!-- Load movement functions first -->
+    <script src="./movement.js"></script>
+    <!-- Then load main renderer script -->
     <script src="./renderer.js"></script>
 </html>

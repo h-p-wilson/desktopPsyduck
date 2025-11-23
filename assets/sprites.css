@@ -1,0 +1,980 @@
+.walking_front1 {
+   background: url('spritesheet.png') no-repeat -69px -0px;
+   width: 20px;
+   height: 24px;
+}
+.walking_front2 {
+   background: url('spritesheet.png') no-repeat -90px -0px;
+   width: 19px;
+   height: 24px;
+}
+.walking_front3 {
+   background: url('spritesheet.png') no-repeat -110px -0px;
+   width: 20px;
+   height: 24px;
+}
+.walking_back2 {
+   background: url('spritesheet.png') no-repeat -29px -1px;
+   width: 19px;
+   height: 23px;
+}
+.walking_back1 {
+   background: url('spritesheet.png') no-repeat -10px -2px;
+   width: 18px;
+   height: 22px;
+}
+.walking_back3 {
+   background: url('spritesheet.png') no-repeat -49px -2px;
+   width: 18px;
+   height: 22px;
+}
+.walking_nw1 {
+   background: url('spritesheet.png') no-repeat -8px -25px;
+   width: 20px;
+   height: 23px;
+}
+.walking_nw2 {
+   background: url('spritesheet.png') no-repeat -29px -25px;
+   width: 19px;
+   height: 23px;
+}
+.walking-ne2 {
+   background: url('spritesheet.png') no-repeat -88px -25px;
+   width: 19px;
+   height: 23px;
+}
+.walking_ne3 {
+   background: url('spritesheet.png') no-repeat -108px -25px;
+   width: 20px;
+   height: 23px;
+}
+.walking_nw3 {
+   background: url('spritesheet.png') no-repeat -49px -26px;
+   width: 18px;
+   height: 22px;
+}
+.walking_ne1 {
+   background: url('spritesheet.png') no-repeat -69px -26px;
+   width: 18px;
+   height: 22px;
+}
+.sprite13 {
+   background: url('spritesheet.png') no-repeat -315px -48px;
+   width: 21px;
+   height: 28px;
+}
+.sprite14 {
+   background: url('spritesheet.png') no-repeat -364px -48px;
+   width: 27px;
+   height: 28px;
+}
+.walking_left2 {
+   background: url('spritesheet.png') no-repeat -22px -49px;
+   width: 22px;
+   height: 24px;
+}
+.walking_right2 {
+   background: url('spritesheet.png') no-repeat -92px -49px;
+   width: 22px;
+   height: 24px;
+}
+.sprite17 {
+   background: url('spritesheet.png') no-repeat -269px -49px;
+   width: 21px;
+   height: 27px;
+}
+.sprite18 {
+   background: url('spritesheet.png') no-repeat -291px -49px;
+   width: 23px;
+   height: 27px;
+}
+.walking_left1 {
+   background: url('spritesheet.png') no-repeat -0px -50px;
+   width: 21px;
+   height: 23px;
+}
+.walking_left3 {
+   background: url('spritesheet.png') no-repeat -45px -50px;
+   width: 22px;
+   height: 23px;
+}
+.walking_right1 {
+   background: url('spritesheet.png') no-repeat -69px -50px;
+   width: 22px;
+   height: 23px;
+}
+.walking_right3 {
+   background: url('spritesheet.png') no-repeat -115px -50px;
+   width: 21px;
+   height: 23px;
+}
+.sprite23 {
+   background: url('spritesheet.png') no-repeat -338px -50px;
+   width: 25px;
+   height: 26px;
+}
+.sprite24 {
+   background: url('spritesheet.png') no-repeat -392px -50px;
+   width: 26px;
+   height: 26px;
+}
+.walking_sw2 {
+   background: url('spritesheet.png') no-repeat -29px -74px;
+   width: 18px;
+   height: 25px;
+}
+.walking_sw3 {
+   background: url('spritesheet.png') no-repeat -48px -74px;
+   width: 19px;
+   height: 25px;
+}
+.walking_se1 {
+   background: url('spritesheet.png') no-repeat -69px -74px;
+   width: 19px;
+   height: 25px;
+}
+.walking_se2 {
+   background: url('spritesheet.png') no-repeat -89px -74px;
+   width: 18px;
+   height: 25px;
+}
+.walking_sw1 {
+   background: url('spritesheet.png') no-repeat -10px -75px;
+   width: 18px;
+   height: 24px;
+}
+.walking_se3 {
+   background: url('spritesheet.png') no-repeat -108px -75px;
+   width: 18px;
+   height: 24px;
+}
+.sprite31 {
+   background: url('spritesheet.png') no-repeat -268px -77px;
+   width: 24px;
+   height: 28px;
+}
+.sprite32 {
+   background: url('spritesheet.png') no-repeat -382px -77px;
+   width: 24px;
+   height: 28px;
+}
+.sprite33 {
+   background: url('spritesheet.png') no-repeat -293px -78px;
+   width: 22px;
+   height: 27px;
+}
+.sprite34 {
+   background: url('spritesheet.png') no-repeat -359px -78px;
+   width: 22px;
+   height: 27px;
+}
+.sprite35 {
+   background: url('spritesheet.png') no-repeat -316px -80px;
+   width: 20px;
+   height: 25px;
+}
+.sprite36 {
+   background: url('spritesheet.png') no-repeat -338px -80px;
+   width: 20px;
+   height: 25px;
+}
+.sleeping1 {
+   background: url('spritesheet.png') no-repeat -0px -100px;
+   width: 18px;
+   height: 24px;
+}
+.sleeping2 {
+   background: url('spritesheet.png') no-repeat -19px -101px;
+   width: 18px;
+   height: 23px;
+}
+.sprite39 {
+   background: url('spritesheet.png') no-repeat -281px -106px;
+   width: 27px;
+   height: 28px;
+}
+.sprite40 {
+   background: url('spritesheet.png') no-repeat -366px -106px;
+   width: 27px;
+   height: 28px;
+}
+.sprite41 {
+   background: url('spritesheet.png') no-repeat -254px -107px;
+   width: 26px;
+   height: 27px;
+}
+.sprite42 {
+   background: url('spritesheet.png') no-repeat -394px -107px;
+   width: 26px;
+   height: 27px;
+}
+.sprite43 {
+   background: url('spritesheet.png') no-repeat -309px -108px;
+   width: 27px;
+   height: 26px;
+}
+.sprite44 {
+   background: url('spritesheet.png') no-repeat -338px -108px;
+   width: 27px;
+   height: 26px;
+}
+.sprite45 {
+   background: url('spritesheet.png') no-repeat -104px -125px;
+   width: 3px;
+   height: 5px;
+}
+.sprite46 {
+   background: url('spritesheet.png') no-repeat -110px -125px;
+   width: 4px;
+   height: 5px;
+}
+.sprite47 {
+   background: url('spritesheet.png') no-repeat -4px -126px;
+   width: 3px;
+   height: 5px;
+}
+.sprite48 {
+   background: url('spritesheet.png') no-repeat -11px -126px;
+   width: 3px;
+   height: 5px;
+}
+.sprite49 {
+   background: url('spritesheet.png') no-repeat -86px -127px;
+   width: 6px;
+   height: 5px;
+}
+.sprite50 {
+   background: url('spritesheet.png') no-repeat -100px -128px;
+   width: 3px;
+   height: 4px;
+}
+.sprite51 {
+   background: url('spritesheet.png') no-repeat -114px -128px;
+   width: 3px;
+   height: 4px;
+}
+.sprite52 {
+   background: url('spritesheet.png') no-repeat -16px -129px;
+   width: 3px;
+   height: 5px;
+}
+.sprite53 {
+   background: url('spritesheet.png') no-repeat -58px -129px;
+   width: 6px;
+   height: 4px;
+}
+.sprite54 {
+   background: url('spritesheet.png') no-repeat -0px -130px;
+   width: 3px;
+   height: 5px;
+}
+.sprite55 {
+   background: url('spritesheet.png') no-repeat -29px -130px;
+   width: 1px;
+   height: 2px;
+}
+.sprite56 {
+   background: url('spritesheet.png') no-repeat -23px -131px;
+   width: 4px;
+   height: 3px;
+}
+.crying_sw {
+   background: url('spritesheet.png') no-repeat -20px -131px;
+   width: 24px;
+   height: 25px;
+}
+.crying_back {
+   background: url('spritesheet.png') no-repeat -99px -131px;
+   width: 19px;
+   height: 25px;
+}
+.crying_front {
+   background: url('spritesheet.png') no-repeat -1px -132px;
+   width: 17px;
+   height: 24px;
+}
+.sprite60 {
+   background: url('spritesheet.png') no-repeat -65px -133px;
+   width: 6px;
+   height: 3px;
+}
+.crying_nw {
+   background: url('spritesheet.png') no-repeat -72px -133px;
+   width: 17px;
+   height: 23px;
+}
+.sprite62 {
+   background: url('spritesheet.png') no-repeat -92px -134px;
+   width: 6px;
+   height: 3px;
+}
+.crying_left {
+   background: url('spritesheet.png') no-repeat -45px -135px;
+   width: 18px;
+   height: 21px;
+}
+.sprite64 {
+   background: url('spritesheet.png') no-repeat -284px -135px;
+   width: 24px;
+   height: 29px;
+}
+.sprite65 {
+   background: url('spritesheet.png') no-repeat -366px -135px;
+   width: 24px;
+   height: 29px;
+}
+.sprite66 {
+   background: url('spritesheet.png') no-repeat -260px -137px;
+   width: 23px;
+   height: 27px;
+}
+.sprite67 {
+   background: url('spritesheet.png') no-repeat -309px -137px;
+   width: 27px;
+   height: 27px;
+}
+.sprite68 {
+   background: url('spritesheet.png') no-repeat -338px -137px;
+   width: 27px;
+   height: 27px;
+}
+.sprite69 {
+   background: url('spritesheet.png') no-repeat -391px -137px;
+   width: 23px;
+   height: 27px;
+}
+.sprite70 {
+   background: url('spritesheet.png') no-repeat -43px -144px;
+   width: 1px;
+   height: 1px;
+}
+.hand_up_back {
+   background: url('spritesheet.png') no-repeat -81px -157px;
+   width: 18px;
+   height: 24px;
+}
+.hand_up_sw {
+   background: url('spritesheet.png') no-repeat -20px -158px;
+   width: 19px;
+   height: 23px;
+}
+.hand_up_left {
+   background: url('spritesheet.png') no-repeat -40px -158px;
+   width: 22px;
+   height: 23px;
+}
+.hand_up_nw {
+   background: url('spritesheet.png') no-repeat -63px -158px;
+   width: 18px;
+   height: 23px;
+}
+.hand_up_front {
+   background: url('spritesheet.png') no-repeat -0px -159px;
+   width: 19px;
+   height: 22px;
+}
+.sprite76 {
+   background: url('spritesheet.png') no-repeat -254px -165px;
+   width: 25px;
+   height: 25px;
+}
+.sprite77 {
+   background: url('spritesheet.png') no-repeat -280px -166px;
+   width: 27px;
+   height: 24px;
+}
+.falling4 {
+   background: url('spritesheet.png') no-repeat -25px -182px;
+   width: 24px;
+   height: 22px;
+}
+.falling5 {
+   background: url('spritesheet.png') no-repeat -0px -183px;
+   width: 24px;
+   height: 21px;
+}
+.falling3 {
+   background: url('spritesheet.png') no-repeat -50px -183px;
+   width: 23px;
+   height: 21px;
+}
+.falling2 {
+   background: url('spritesheet.png') no-repeat -74px -183px;
+   width: 22px;
+   height: 21px;
+}
+.falling1 {
+   background: url('spritesheet.png') no-repeat -97px -184px;
+   width: 23px;
+   height: 20px;
+}
+.sprite83 {
+   background: url('spritesheet.png') no-repeat -256px -197px;
+   width: 26px;
+   height: 32px;
+}
+.sprite84 {
+   background: url('spritesheet.png') no-repeat -303px -197px;
+   width: 1px;
+   height: 2px;
+}
+.sprite85 {
+   background: url('spritesheet.png') no-repeat -283px -197px;
+   width: 30px;
+   height: 32px;
+}
+.sprite86 {
+   background: url('spritesheet.png') no-repeat -312px -198px;
+   width: 3px;
+   height: 2px;
+}
+.sprite87 {
+   background: url('spritesheet.png') no-repeat -316px -198px;
+   width: 26px;
+   height: 31px;
+}
+.sprite88 {
+   background: url('spritesheet.png') no-repeat -383px -198px;
+   width: 2px;
+   height: 3px;
+}
+.sprite89 {
+   background: url('spritesheet.png') no-repeat -388px -198px;
+   width: 2px;
+   height: 3px;
+}
+.sprite90 {
+   background: url('spritesheet.png') no-repeat -361px -199px;
+   width: 2px;
+   height: 3px;
+}
+.sprite91 {
+   background: url('spritesheet.png') no-repeat -366px -200px;
+   width: 3px;
+   height: 3px;
+}
+.sprite92 {
+   background: url('spritesheet.png') no-repeat -376px -200px;
+   width: 3px;
+   height: 3px;
+}
+.sprite93 {
+   background: url('spritesheet.png') no-repeat -393px -200px;
+   width: 4px;
+   height: 3px;
+}
+.sprite94 {
+   background: url('spritesheet.png') no-repeat -342px -202px;
+   width: 3px;
+   height: 2px;
+}
+.sprite95 {
+   background: url('spritesheet.png') no-repeat -347px -203px;
+   width: 3px;
+   height: 3px;
+}
+.sprite96 {
+   background: url('spritesheet.png') no-repeat -348px -203px;
+   width: 24px;
+   height: 26px;
+}
+.sprite97 {
+   background: url('spritesheet.png') no-repeat -373px -204px;
+   width: 26px;
+   height: 25px;
+}
+.cheering_2 {
+   background: url('spritesheet.png') no-repeat -72px -205px;
+   width: 23px;
+   height: 24px;
+}
+.falling_back1 {
+   background: url('spritesheet.png') no-repeat -0px -208px;
+   width: 21px;
+   height: 21px;
+}
+.cheering_1 {
+   background: url('spritesheet.png') no-repeat -48px -208px;
+   width: 23px;
+   height: 21px;
+}
+.falling_back2 {
+   background: url('spritesheet.png') no-repeat -22px -209px;
+   width: 25px;
+   height: 20px;
+}
+.wave2 {
+   background: url('spritesheet.png') no-repeat -19px -230px;
+   width: 24px;
+   height: 26px;
+}
+.wave3 {
+   background: url('spritesheet.png') no-repeat -44px -230px;
+   width: 22px;
+   height: 26px;
+}
+.sprite104 {
+   background: url('spritesheet.png') no-repeat -271px -230px;
+   width: 20px;
+   height: 29px;
+}
+.sprite105 {
+   background: url('spritesheet.png') no-repeat -292px -230px;
+   width: 21px;
+   height: 29px;
+}
+.sprite106 {
+   background: url('spritesheet.png') no-repeat -314px -231px;
+   width: 20px;
+   height: 28px;
+}
+.wave1 {
+   background: url('spritesheet.png') no-repeat -0px -232px;
+   width: 18px;
+   height: 24px;
+}
+.sprite108 {
+   background: url('spritesheet.png') no-repeat -335px -232px;
+   width: 22px;
+   height: 27px;
+}
+.sprite109 {
+   background: url('spritesheet.png') no-repeat -68px -233px;
+   width: 19px;
+   height: 23px;
+}
+.sprite110 {
+   background: url('spritesheet.png') no-repeat -88px -233px;
+   width: 21px;
+   height: 23px;
+}
+.sprite111 {
+   background: url('spritesheet.png') no-repeat -358px -234px;
+   width: 21px;
+   height: 25px;
+}
+.sprite112 {
+   background: url('spritesheet.png') no-repeat -20px -257px;
+   width: 4px;
+   height: 5px;
+}
+.sprite113 {
+   background: url('spritesheet.png') no-repeat -88px -257px;
+   width: 23px;
+   height: 25px;
+}
+.sprite114 {
+   background: url('spritesheet.png') no-repeat -0px -258px;
+   width: 4px;
+   height: 5px;
+}
+.sprite115 {
+   background: url('spritesheet.png') no-repeat -3px -258px;
+   width: 19px;
+   height: 24px;
+}
+.sprite116 {
+   background: url('spritesheet.png') no-repeat -27px -259px;
+   width: 19px;
+   height: 23px;
+}
+.sprite117 {
+   background: url('spritesheet.png') no-repeat -47px -259px;
+   width: 19px;
+   height: 23px;
+}
+.sprite118 {
+   background: url('spritesheet.png') no-repeat -368px -260px;
+   width: 22px;
+   height: 28px;
+}
+.sprite119 {
+   background: url('spritesheet.png') no-repeat -67px -261px;
+   width: 20px;
+   height: 21px;
+}
+.sprite120 {
+   background: url('spritesheet.png') no-repeat -22px -262px;
+   width: 4px;
+   height: 4px;
+}
+.sprite121 {
+   background: url('spritesheet.png') no-repeat -345px -262px;
+   width: 22px;
+   height: 26px;
+}
+.sprite122 {
+   background: url('spritesheet.png') no-repeat -293px -266px;
+   width: 23px;
+   height: 22px;
+}
+.sprite123 {
+   background: url('spritesheet.png') no-repeat -270px -267px;
+   width: 22px;
+   height: 21px;
+}
+.sprite124 {
+   background: url('spritesheet.png') no-repeat -317px -268px;
+   width: 27px;
+   height: 20px;
+}
+.sprite125 {
+   background: url('spritesheet.png') no-repeat -0px -283px;
+   width: 19px;
+   height: 24px;
+}
+.sprite126 {
+   background: url('spritesheet.png') no-repeat -85px -283px;
+   width: 23px;
+   height: 24px;
+}
+.big_cheer_1 {
+   background: url('spritesheet.png') no-repeat -42px -284px;
+   width: 17px;
+   height: 23px;
+}
+.sprite128 {
+   background: url('spritesheet.png') no-repeat -60px -284px;
+   width: 24px;
+   height: 23px;
+}
+.sprite129 {
+   background: url('spritesheet.png') no-repeat -20px -285px;
+   width: 21px;
+   height: 22px;
+}
+.sprite130 {
+   background: url('spritesheet.png') no-repeat -240px -290px;
+   width: 19px;
+   height: 31px;
+}
+.sprite131 {
+   background: url('spritesheet.png') no-repeat -323px -295px;
+   width: 21px;
+   height: 26px;
+}
+.sprite132 {
+   background: url('spritesheet.png') no-repeat -371px -295px;
+   width: 20px;
+   height: 26px;
+}
+.sprite133 {
+   background: url('spritesheet.png') no-repeat -260px -296px;
+   width: 21px;
+   height: 25px;
+}
+.sprite134 {
+   background: url('spritesheet.png') no-repeat -282px -296px;
+   width: 21px;
+   height: 25px;
+}
+.sprite135 {
+   background: url('spritesheet.png') no-repeat -305px -297px;
+   width: 16px;
+   height: 24px;
+}
+.sprite136 {
+   background: url('spritesheet.png') no-repeat -346px -297px;
+   width: 23px;
+   height: 24px;
+}
+.sprite137 {
+   background: url('spritesheet.png') no-repeat -418px -297px;
+   width: 25px;
+   height: 24px;
+}
+.sprite138 {
+   background: url('spritesheet.png') no-repeat -393px -298px;
+   width: 23px;
+   height: 23px;
+}
+.sprite139 {
+   background: url('spritesheet.png') no-repeat -23px -308px;
+   width: 20px;
+   height: 25px;
+}
+.sprite140 {
+   background: url('spritesheet.png') no-repeat -0px -309px;
+   width: 22px;
+   height: 24px;
+}
+.sprite141 {
+   background: url('spritesheet.png') no-repeat -44px -309px;
+   width: 20px;
+   height: 24px;
+}
+.sprite142 {
+   background: url('spritesheet.png') no-repeat -65px -309px;
+   width: 19px;
+   height: 24px;
+}
+.sprite143 {
+   background: url('spritesheet.png') no-repeat -85px -309px;
+   width: 20px;
+   height: 24px;
+}
+.sprite144 {
+   background: url('spritesheet.png') no-repeat -106px -309px;
+   width: 17px;
+   height: 24px;
+}
+.sprite145 {
+   background: url('spritesheet.png') no-repeat -397px -322px;
+   width: 20px;
+   height: 25px;
+}
+.sprite146 {
+   background: url('spritesheet.png') no-repeat -418px -322px;
+   width: 20px;
+   height: 25px;
+}
+.sprite147 {
+   background: url('spritesheet.png') no-repeat -269px -323px;
+   width: 24px;
+   height: 24px;
+}
+.sprite148 {
+   background: url('spritesheet.png') no-repeat -322px -323px;
+   width: 21px;
+   height: 24px;
+}
+.sprite149 {
+   background: url('spritesheet.png') no-repeat -295px -325px;
+   width: 26px;
+   height: 22px;
+}
+.sprite150 {
+   background: url('spritesheet.png') no-repeat -363px -325px;
+   width: 22px;
+   height: 22px;
+}
+.sprite151 {
+   background: url('spritesheet.png') no-repeat -387px -325px;
+   width: 9px;
+   height: 22px;
+}
+.sprite152 {
+   background: url('spritesheet.png') no-repeat -240px -329px;
+   width: 27px;
+   height: 18px;
+}
+.sprite153 {
+   background: url('spritesheet.png') no-repeat -345px -332px;
+   width: 17px;
+   height: 15px;
+}
+.sprite154 {
+   background: url('spritesheet.png') no-repeat -201px -334px;
+   width: 19px;
+   height: 24px;
+}
+.sprite155 {
+   background: url('spritesheet.png') no-repeat -153px -335px;
+   width: 23px;
+   height: 23px;
+}
+.sprite156 {
+   background: url('spritesheet.png') no-repeat -24px -336px;
+   width: 21px;
+   height: 22px;
+}
+.sprite157 {
+   background: url('spritesheet.png') no-repeat -47px -336px;
+   width: 24px;
+   height: 22px;
+}
+.sprite158 {
+   background: url('spritesheet.png') no-repeat -98px -337px;
+   width: 25px;
+   height: 21px;
+}
+.sprite159 {
+   background: url('spritesheet.png') no-repeat -177px -337px;
+   width: 22px;
+   height: 21px;
+}
+.sprite160 {
+   background: url('spritesheet.png') no-repeat -0px -338px;
+   width: 23px;
+   height: 20px;
+}
+.sprite161 {
+   background: url('spritesheet.png') no-repeat -72px -339px;
+   width: 24px;
+   height: 19px;
+}
+.sprite162 {
+   background: url('spritesheet.png') no-repeat -124px -339px;
+   width: 27px;
+   height: 19px;
+}
+.sprite163 {
+   background: url('spritesheet.png') no-repeat -221px -340px;
+   width: 17px;
+   height: 19px;
+}
+.sprite164 {
+   background: url('spritesheet.png') no-repeat -278px -349px;
+   width: 24px;
+   height: 31px;
+}
+.sprite165 {
+   background: url('spritesheet.png') no-repeat -304px -349px;
+   width: 21px;
+   height: 31px;
+}
+.sprite166 {
+   background: url('spritesheet.png') no-repeat -326px -350px;
+   width: 20px;
+   height: 30px;
+}
+.sprite167 {
+   background: url('spritesheet.png') no-repeat -347px -351px;
+   width: 22px;
+   height: 29px;
+}
+.sprite168 {
+   background: url('spritesheet.png') no-repeat -370px -351px;
+   width: 23px;
+   height: 29px;
+}
+.sprite169 {
+   background: url('spritesheet.png') no-repeat -125px -359px;
+   width: 22px;
+   height: 24px;
+}
+.sprite170 {
+   background: url('spritesheet.png') no-repeat -62px -360px;
+   width: 17px;
+   height: 23px;
+}
+.sprite171 {
+   background: url('spritesheet.png') no-repeat -88px -360px;
+   width: 19px;
+   height: 23px;
+}
+.sprite172 {
+   background: url('spritesheet.png') no-repeat -189px -360px;
+   width: 19px;
+   height: 23px;
+}
+.sprite173 {
+   background: url('spritesheet.png') no-repeat -8px -361px;
+   width: 19px;
+   height: 22px;
+}
+.sprite174 {
+   background: url('spritesheet.png') no-repeat -28px -361px;
+   width: 19px;
+   height: 22px;
+}
+.sprite175 {
+   background: url('spritesheet.png') no-repeat -154px -361px;
+   width: 22px;
+   height: 23px;
+}
+.sprite176 {
+   background: url('spritesheet.png') no-repeat -0px -363px;
+   width: 7px;
+   height: 20px;
+}
+.sprite177 {
+   background: url('spritesheet.png') no-repeat -81px -364px;
+   width: 6px;
+   height: 19px;
+}
+.sprite178 {
+   background: url('spritesheet.png') no-repeat -49px -366px;
+   width: 11px;
+   height: 17px;
+}
+.sprite179 {
+   background: url('spritesheet.png') no-repeat -149px -368px;
+   width: 4px;
+   height: 15px;
+}
+.sprite180 {
+   background: url('spritesheet.png') no-repeat -210px -370px;
+   width: 15px;
+   height: 13px;
+}
+.sprite181 {
+   background: url('spritesheet.png') no-repeat -109px -371px;
+   width: 14px;
+   height: 12px;
+}
+.sprite182 {
+   background: url('spritesheet.png') no-repeat -178px -371px;
+   width: 10px;
+   height: 12px;
+}
+.sprite183 {
+   background: url('spritesheet.png') no-repeat -382px -381px;
+   width: 23px;
+   height: 27px;
+}
+.sprite184 {
+   background: url('spritesheet.png') no-repeat -270px -382px;
+   width: 27px;
+   height: 26px;
+}
+.sprite185 {
+   background: url('spritesheet.png') no-repeat -324px -383px;
+   width: 32px;
+   height: 25px;
+}
+.sprite186 {
+   background: url('spritesheet.png') no-repeat -46px -384px;
+   width: 18px;
+   height: 24px;
+}
+.sprite187 {
+   background: url('spritesheet.png') no-repeat -298px -384px;
+   width: 25px;
+   height: 24px;
+}
+.sprite188 {
+   background: url('spritesheet.png') no-repeat -357px -384px;
+   width: 24px;
+   height: 24px;
+}
+.sprite189 {
+   background: url('spritesheet.png') no-repeat -0px -385px;
+   width: 18px;
+   height: 23px;
+}
+.sprite190 {
+   background: url('spritesheet.png') no-repeat -27px -385px;
+   width: 18px;
+   height: 23px;
+}
+.sprite191 {
+   background: url('spritesheet.png') no-repeat -66px -385px;
+   width: 23px;
+   height: 23px;
+}
+.sprite192 {
+   background: url('spritesheet.png') no-repeat -114px -385px;
+   width: 24px;
+   height: 23px;
+}
+.sprite193 {
+   background: url('spritesheet.png') no-repeat -139px -385px;
+   width: 21px;
+   height: 23px;
+}
+.sprite194 {
+   background: url('spritesheet.png') no-repeat -91px -386px;
+   width: 22px;
+   height: 22px;
+}
+.sprite195 {
+   background: url('spritesheet.png') no-repeat -161px -387px;
+   width: 23px;
+   height: 21px;
+}
+.sprite196 {
+   background: url('spritesheet.png') no-repeat -20px -396px;
+   width: 5px;
+   height: 12px;
+}

@@ -1,0 +1,4 @@
+#psyduck {
+  image-rendering: pixelated; /* makes sprites sharp */
+  position: absolute;         /* lets you move it later */
+}
