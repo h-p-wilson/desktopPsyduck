@@ -1,8 +1,9 @@
 // App controls the applications event lifecycle
 // BrowserWindow creates and manages app windows
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, ipcMain } from 'electron';
+import { join } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -16,7 +17,7 @@ const createWindow = () => {
         height:600,
         webPreferences: {
           // This attaches the preload script to the renderer process
-          preload: join(__dirname, 'preload.js'),
+          preload: join(__dirname, 'preload.cjs'),
           nodeIntegration: false,
           contextIsolation: true
         }
@@ -27,7 +28,9 @@ const createWindow = () => {
 
 // waits until the ready flag has fired
 app.whenReady().then(() => {
-    createWindow()
+  // this is the receiver
+  ipcMain.handle('ping', () => 'pong')  
+  createWindow()
 
     // Apparently macOS apps keep running without any windows open
     // This allows us to open a new window when none are active
