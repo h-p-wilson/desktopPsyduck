@@ -9,8 +9,6 @@ function update() {
     psyduck.style.top = y + "px";
 }
 
-// Movement functions are now in movement.js
-
 // Wee up and down example
 function startBouncing() {
     function bounce() {
@@ -46,22 +44,21 @@ function moveSquare() {
             moveUp(distance);
         }
         
-        step = (step + 1) % 4; // 0,1,2,3,0,1,2,3...
+        step = (step + 1) % 4; 
         
-        // Wait long enough for movement to finish (100px ÷ 1px/frame × 16ms/frame = ~1600ms + buffer)
         setTimeout(nextStep, 2000);
     }
     
     nextStep(); // Start!
 }
 
-// RANDOM DISTANCE SQUARE - No more hardcoded timeouts!
+// A random distance square
 function moveRandomSquare() {
     let step = 0;
     
     function nextStep() {
         // Random distance between 30 and 150 pixels
-        const randomDistance = 0 + Math.random() * 150;
+        const randomDistance = 30 + Math.random() * 120;
         
         if (step === 0) {
             console.log(`→ Right ${Math.round(randomDistance)}px`);
@@ -74,26 +71,69 @@ function moveRandomSquare() {
             moveLeft(randomDistance, nextStep); // When done, call nextStep!
         } else if (step === 3) {
             console.log(`↑ Up ${Math.round(randomDistance)}px`);
-            moveUp(randomDistance, () => {
-                // Square complete! Wait a moment, then start again
+            moveUp(randomDistance, nextStep); // When done, call nextStep!
+        } else if (step === 4) {
+            const standTime = 3000 + Math.random() * 6000; // 3-9 seconds for relaxing rest
+            console.log(`💤 Sleeping for ${Math.round(standTime)}ms`);
+            standStill(standTime, () => {
+                // Wait a moment, then start again
                 setTimeout(() => {
                     console.log("Random square complete! Starting new one...");
                     step = 0;
-                    const stopOrContinue = r
                     nextStep();
                 }, 500);
             });
-            return; // Don't increment step here, we do it in the callback
+            return; // Don't increment step here, we reset it in the callback
         }
         
-        step = (step + 1) % 4; // Move to next direction
+        step = (step + 1) % 5;
     }
     
     nextStep(); // Start!
 }
 
+// A random distance diamond
+function moveRandomDiamond() {
+    let step = 0;
+    
+    function nextStep() {
+        // Random distance between 40 and 120 pixels 
+        const randomDistance = 40 + Math.random() * 80;
+        
+        if (step === 0) {
+            console.log(`↗ NorthEast ${Math.round(randomDistance)}px`);
+            moveNorthEast(randomDistance, nextStep);
+        } else if (step === 1) {
+            console.log(`↘ SouthEast ${Math.round(randomDistance)}px`);
+            moveSouthEast(randomDistance, nextStep);
+        } else if (step === 2) {
+            console.log(`↙ SouthWest ${Math.round(randomDistance)}px`);
+            moveSouthWest(randomDistance, nextStep);
+        } else if (step === 3) {
+            console.log(`↖ NorthWest ${Math.round(randomDistance)}px`);
+            moveNorthWest(randomDistance, nextStep);
+        } else if (step === 4) {
+            const standTime = 2500 + Math.random() * 4000; // 2.5 - 6.5 seconds for relaxing rest
+            console.log(`💎 Diamond complete! Resting for ${Math.round(standTime)}ms`);
+            standStill(standTime, () => {
+                // Wait a moment, then start a new diamond
+                setTimeout(() => {
+                    console.log("Starting new diamond pattern...");
+                    step = 0;
+                    nextStep();
+                }, 300);
+            });
+            return; // Don't increment step here, we reset it in the callback
+        }
+        
+        step = (step + 1) % 5;
+    }
+    
+    nextStep(); // Start the diamond!
+}
+
 // Choose one to run:
 // startBouncing(); 
-// moveSquare();         // Fixed square with hardcoded timeouts
-moveRandomSquare();      // Random distance square with callbacks!
-
+// moveSquare();       
+// moveRandomSquare();      
+moveRandomDiamond();      
