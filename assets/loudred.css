@@ -1,0 +1,32 @@
+/* Loudred Sprite CSS */
+.loudred-sprite {
+    background-image: url('./loudred.png');
+    image-rendering: pixelated;
+    position: absolute;
+}
+
+/* Idle animations */
+.loudred-idle1 {
+    background-position: -84px -22px;
+    width: 24px;
+    height: 24px;
+}
+
+.loudred-idle2 {
+    background-position: -111px -23px;
+    width: 26px;
+    height: 26px;
+}
+
+/* Sleep animations */
+.loudred-sleep1 {
+    background-position: -7px -68px;
+    width: 21px;
+    height: 25px;
+}
+
+.loudred-sleep2 {
+    background-position: -33px -66px;
+    width: 21px;
+    height: 26px;
+}

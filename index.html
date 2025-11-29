@@ -13,12 +13,25 @@
         />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./assets/sprites.css">
+        <link rel="stylesheet" href="./assets/loudred.css">
         <title>Hello it's Hephzi!!!</title>
     </head>
     <body>
-        <h1>Hello it's hephzi!!! So it is!</h1>
+        <div id="psyduck-shadow"></div>
         <div id = "psyduck" class="walking_front1"></div>
-        <p id="info"></p>
+        <div id="apple-menu" class="item-sprite apple"></div>
+        
+        <div id="menu-overlay" class="menu-overlay">
+            <div class="menu-panel">
+                <div class="menu-title">Psyduck Menu</div>
+                <div class="menu-row">
+                    <div id="loudred" class="loudred-sprite loudred-idle1"></div>
+                    <button id="mute-button" class="menu-button">Mute Sound</button>
+                </div>
+                <button id="close-button" class="menu-button">Close Psyduck</button>
+                <button id="cancel-button" class="menu-button">Cancel</button>
+            </div>
+        </div>
     </body>
     <!-- Load movement functions first -->
     <script src="./movement.js"></script>
